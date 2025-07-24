@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-class bank{
+class bankaccount{
 private:
 	int balance;
 	int accno;
@@ -41,7 +41,7 @@ public:
 };
 int main()
 {
-	bank b1;
+	bankaccount b1;
 	b1.add("Vivek",7000,1234567890);
 	cout << b1.holdername << "\n";
 	cout << b1.getaccno() << "\n";
