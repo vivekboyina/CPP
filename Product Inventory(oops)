@@ -16,6 +16,7 @@ public:
 	}
 	void setprice(int p)
 	{
+                if(p <= 0) return;
 		price = p;
 	}
 	void setstock(int s)
