@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-class library{
+class book{
 private:
 	int isbn;
 	int copiesavail;
@@ -49,9 +49,9 @@ public:
 };
 int main()
 {
-	library l1;
-	l1.enter("Never","Harsha",209,123);
-	l1.display();
-	l1.issuebook();
-	l1.display();
+	book b1;
+	b1.enter("Never","Harsha",209,123);
+	b1.display();
+	b1.issuebook();
+	b1.display();
 }
